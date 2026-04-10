@@ -29,7 +29,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: .2rem 0rem .3rem 0rem;
+    padding: .4rem 0rem .7rem 0rem;
     background-color: #160739;
     z-index: 999;
 }
@@ -67,29 +67,28 @@ main {
 
 h1 {
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 h1 span {
     color: rgb(206, 84, 54);
-    font-size: 2.3rem;
+    font-size: 2.1rem;
 }
 
 h2 {
     text-align: center;
-    padding-top: .1rem;
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 450;
     color: rgb(41, 211, 197);
 }
 
 section {
-    margin-top: 6.5rem;
+    margin-top: 8.5rem;
     padding: 0rem 1.7rem;
 }
 
 section img {
-    height: 90%;
+    height: 87%;
     width: 100%;
     max-width: 100%;
     border-radius: 1.3rem;
@@ -135,7 +134,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: .1rem 0rem;
+    padding: .3rem 0rem;
     background-color: #160739;
     z-index: 999;
 }
@@ -151,8 +150,8 @@ footer span a {
 
 .btntop {
     position: fixed;
-    bottom: 3rem;
-    right: .4rem;
+    bottom: 3.7rem;
+    right: .7rem;
     cursor: pointer;
     transition: all .8s;
     opacity: 0;
@@ -165,15 +164,6 @@ footer span a {
 /* iPhone5 - Horizontal */
 
 @media (max-width: 812px) {
-
-    header {
-        padding: .2rem 0rem .3rem 0rem;
-    }
-
-    h1 {
-        text-align: center;
-        font-size: 1.7rem;
-    }
 
     h2 {
         font-size: 1.1rem;
@@ -213,7 +203,7 @@ footer span a {
 
     .btntop {
         bottom: 3rem;
-        right: .2rem;
+        right: .5rem;
     }
 
     .btntop:hover {
@@ -225,29 +215,24 @@ footer span a {
 
 @media (max-width: 478px) {
 
-    header {
-        padding: .2rem 0rem .3rem 0rem;
-    }
-
-    h1 {
-        text-align: center;
-        font-size: 1.7rem;
-    }
-
     h2 {
         font-size: 1.1rem;
         font-weight: 500;
     }
 
     section {
-        margin-top: 6.5rem;
+        margin-top: 7.5rem;
     }
+
+    section img {
+    height: 86%;
+}
 
     ul,
     li {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, auto));
-        gap: 4rem 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(130px, auto));
+        gap: 2.5rem 2rem;
     }
 
     ul li a p {
@@ -257,7 +242,7 @@ footer span a {
 
     footer {
         font-size: .7rem;
-        font-weight: 630;
+        font-weight: 605;
         color: aliceblue;
     }
 
@@ -273,8 +258,8 @@ footer span a {
     }
 
     .btntop {
-        bottom: 3rem;
-        right: 0rem;
+        bottom: 3.5rem;
+        right: .3rem;
     }
 
     .btntop:hover {
