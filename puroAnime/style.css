@@ -78,7 +78,7 @@ h1 span {
 h2 {
     text-align: center;
     font-size: 1.1rem;
-    font-weight: 450;
+    font-weight: 500;
     color: rgb(41, 211, 197);
 }
 
@@ -165,11 +165,6 @@ footer span a {
 
 @media (max-width: 812px) {
 
-    h2 {
-        font-size: 1.1rem;
-        font-weight: 500;
-    }
-
     section {
         margin-top: 7.2rem;
     }
@@ -204,11 +199,6 @@ footer span a {
 /* iPhone5 - Vertical */
 
 @media (max-width: 478px) {
-
-    h2 {
-        font-size: 1.1rem;
-        font-weight: 500;
-    }
 
     section {
         margin-top: 7rem;
