@@ -29,7 +29,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: .4rem 0rem .7rem 0rem;
+    padding: .3rem 0rem .3rem 0rem;
     background-color: #111;
     z-index: 999;
 }
@@ -171,7 +171,7 @@ footer span a {
     }
 
     section {
-        margin-top: 6.3rem;
+        margin-top: 7.2rem;
     }
 
     ul,
@@ -221,12 +221,12 @@ footer span a {
     }
 
     section {
-        margin-top: 7.5rem;
+        margin-top: 7rem;
     }
 
     section img {
-    height: 86%;
-}
+        height: 86%;
+    }
 
     ul,
     li {
