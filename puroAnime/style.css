@@ -141,7 +141,7 @@ footer {
 
 footer span a {
     color: rgb(206, 84, 54);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-decoration: none;
     z-index: 100;
@@ -187,16 +187,6 @@ footer span a {
         padding-top: 1rem;
     }
 
-    footer {
-        font-size: .7rem;
-    }
-
-    footer span a p {
-        font-size: 1.3rem;
-        padding-left: .1rem;
-        font-weight: 600;
-    }
-
     main {
         padding-bottom: 4rem;
     }
@@ -238,19 +228,6 @@ footer span a {
     ul li a p {
         font-size: .9rem;
         font-weight: 700;
-    }
-
-    footer {
-        font-size: .7rem;
-        font-weight: 605;
-        color: aliceblue;
-    }
-
-    footer span a {
-        font-size: 1.5rem;
-        padding-left: .3rem;
-        font-weight: 700;
-        color: rgb(206, 84, 54);
     }
 
     main {
