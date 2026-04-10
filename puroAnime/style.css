@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, #160739, #250e66, #371097, #4b0eca, #6300ff);
+    color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+header {
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 500;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: .2rem 0rem .3rem 0rem;
+    background-color: #160739;
+    z-index: 999;
+}
+
+/* Barra inteira */
+::-webkit-scrollbar {
+    width: 4px;
+    /* largura */
+}
+
+/* Fundo da barra */
+::-webkit-scrollbar-track {
+    background: #111;
+    /* cor do fundo */
+}
+
+/* Parte que se move (o "botão") */
+::-webkit-scrollbar-thumb {
+    background: rgb(206, 84, 54);
+    /* cor principal */
+    border-radius: 10px;
+}
+
+/* Hover (quando passa o mouse) */
+::-webkit-scrollbar-thumb:hover {
+    background: aliceblue;
+}
+
+main {
+    z-index: 4;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 4rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+h1 span {
+    color: rgb(206, 84, 54);
+    font-size: 2.3rem;
+}
+
+h2 {
+    text-align: center;
+    padding-top: .1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(41, 211, 197);
+}
+
+section {
+    margin-top: 6.5rem;
+    padding: 0rem 1rem;
+}
+
+section img {
+    height: 90%;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 1.3rem;
+    transition: all .4s;
+    object-fit: cover;
+}
+
+section img:hover {
+    transform: translateY(-5px) scale(1.04);
+    box-shadow: 0px 0px 43px 9px rgb(255, 255, 255);
+}
+
+ul,
+li {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    max-width: 97%;
+    gap: 3rem 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 1rem;
+    color: aliceblue;
+
+    & {
+        p {
+            padding-top: 1rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+    }
+}
+
+footer {
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 570;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: .1rem 0rem;
+    background-color: #160739;
+    z-index: 999;
+}
+
+footer span a {
+    color: rgb(206, 84, 54);
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-decoration: none;
+    z-index: 100;
+    padding-left: .3rem;
+}
+
+.btntop {
+    position: fixed;
+    bottom: 3rem;
+    right: .4rem;
+    cursor: pointer;
+    transition: all .8s;
+    opacity: 0;
+}
+
+.btntop:hover {
+    transform: translateY(-12px) scale(1.1);
+}
+
+/* iPhone5 - Horizontal */
+
+@media (max-width: 812px) {
+
+    header {
+        padding: .2rem 0rem .3rem 0rem;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    section {
+        margin-top: 6.3rem;
+    }
+
+    ul,
+    li {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(141px, auto));
+        gap: 4rem 2rem;
+
+    }
+
+    ul li a p {
+        font-size: .9rem;
+        padding-top: 1rem;
+    }
+
+    footer {
+        font-size: .7rem;
+    }
+
+    footer span a p {
+        font-size: 1.3rem;
+        padding-left: .1rem;
+        font-weight: 600;
+    }
+
+    main {
+        padding-bottom: 4rem;
+    }
+
+    .btntop {
+        bottom: 3rem;
+        right: .2rem;
+    }
+
+    .btntop:hover {
+        transform: translateY(-12px) scale(1.1);
+    }
+}
+
+/* iPhone5 - Vertical */
+
+@media (max-width: 478px) {
+
+    header {
+        padding: .2rem 0rem .3rem 0rem;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    section {
+        margin-top: 6.5rem;
+    }
+
+    ul,
+    li {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+        gap: 4rem 2rem;
+    }
+
+    ul li a p {
+        font-size: .9rem;
+        font-weight: 700;
+    }
+
+    footer {
+        font-size: .7rem;
+        font-weight: 630;
+        color: aliceblue;
+    }
+
+    footer span a {
+        font-size: 1.5rem;
+        padding-left: .3rem;
+        font-weight: 700;
+        color: rgb(206, 84, 54);
+    }
+
+    main {
+        padding-bottom: 4rem;
+    }
+
+    .btntop {
+        bottom: 3rem;
+        right: 0rem;
+    }
+
+    .btntop:hover {
+        transform: translateY(-12px) scale(1.1);
+    }
+
+}
