@@ -37,6 +37,9 @@ body.ativo {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-size: .8rem;
     font-weight: 500;
@@ -97,7 +100,7 @@ main {
 
 h1 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 h1 span {
@@ -107,13 +110,20 @@ h1 span {
 
 h2 {
     text-align: center;
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: rgb(41, 211, 197);
+    font-size: .6rem;
+    font-weight: 700;
+    padding: 0rem .3rem;
+}
+
+.contador-visitas {
+    position: fixed;
+    font-size: .3rem;
+    left: .6rem;
+    display: none;
 }
 
 section {
-    margin-top: 7.5rem;
+    margin-top: 5.5rem;
     padding: 0rem 1.7rem;
 }
 
@@ -162,8 +172,12 @@ ul li a {
 }
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    font-size: .8rem;
+    gap: 0rem .7rem;
+    font-size: .6rem;
     font-weight: 570;
     position: fixed;
     bottom: 0;
@@ -179,7 +193,7 @@ footer {
 
 footer span a {
     color: rgb(206, 84, 54);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 800;
     text-decoration: none;
     z-index: 100;
@@ -206,10 +220,6 @@ footer span a {
     .icon-theme {
         right: .5rem;
         cursor: pointer;
-    }
-
-    section {
-        margin-top: 7.2rem;
     }
 
     ul,
@@ -242,10 +252,6 @@ footer span a {
     .icon-theme {
         right: .3rem;
         cursor: pointer;
-    }
-
-    section {
-        margin-top: 7rem;
     }
 
     section img {

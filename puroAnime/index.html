@@ -11,11 +11,13 @@
 <body>
         <main>
                 <header class="header-theme">
+                        <p class="contador-visitas">Visitas: <span id="contador">0</span></p>
                         <h1>Puro<span> Anime</span></h1>
-                        <h2>Assista Grátis</h2>
+                        <h2>v.0.3.7</h2>
                         <img src="https://img.icons8.com/?size=19&id=88SZJSqr139N&format=png&color=ffffff" alt=""
                                 class="icon-theme">
                 </header>
+
                 <section>
                         <nav>
                                 <ul>
@@ -217,6 +219,28 @@
 
                 <img src="https://img.icons8.com/?size=24&id=99520&format=png&color=ffffff" alt="" class="btntop">
         </main>
+
+        <script type="module">
+                import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+                import { getDatabase, ref, runTransaction } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
+
+                const firebaseConfig = {
+                        apiKey: "AIzaSyAa-A-zvJl8Q3qfCseddBuNsLXII9M-GMM",
+                        authDomain: "contador-de-visitas-e87aa.firebaseapp.com",
+                        databaseURL: "https://contador-de-visitas-e87aa-default-rtdb.firebaseio.com/",
+                        projectId: "contador-de-visitas-e87aa"
+                };
+
+                const app = initializeApp(firebaseConfig);
+                const db = getDatabase(app);
+                const contadorRef = ref(db, "visitas");
+
+                runTransaction(contadorRef, (visitas) => {
+                        return (visitas || 0) + 1;
+                }).then((res) => {
+                        document.getElementById("contador").textContent = res.snapshot.val();
+                });
+        </script>
 
         <footer class="footer-theme">
                 <p>&copy; 2026 Developer <span><a href="https://www.youtube.com/@KleberOFC." target="_blank"
