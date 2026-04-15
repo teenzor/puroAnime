@@ -112,8 +112,12 @@ h1 span {
 h2 {
     text-align: center;
     font-size: .6rem;
-    font-weight: 700;
-    padding: 0rem .2rem;
+    font-weight: 497;
+    margin-left: .1rem;
+    background-color: #6b696979;
+    border: none;
+    border-radius: 50px 12px 50px 0px;
+    padding: 0rem .3rem;
 }
 
 .contador-visitas {
