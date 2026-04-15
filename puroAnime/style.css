@@ -189,7 +189,7 @@ footer span a {
 .btntop {
     position: fixed;
     bottom: 3.7rem;
-    right: .7rem;
+    right: .6rem;
     cursor: pointer;
     transition: all .8s;
     opacity: 0;
