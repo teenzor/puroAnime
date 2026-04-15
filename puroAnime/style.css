@@ -204,7 +204,7 @@ footer span a {
 @media (max-width: 812px) {
 
     .icon-theme {
-        right: .7rem;
+        right: .5rem;
         cursor: pointer;
     }
 
@@ -240,7 +240,7 @@ footer span a {
 @media (max-width: 478px) {
 
     .icon-theme {
-        right: .6rem;
+        right: .3rem;
         cursor: pointer;
     }
 
