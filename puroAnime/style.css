@@ -92,7 +92,7 @@ main {
     z-index: 4;
     height: 100%;
     width: 100%;
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
 }
 
 h1 {
@@ -225,10 +225,6 @@ footer span a {
         padding-top: 1rem;
     }
 
-    main {
-        padding-bottom: 4rem;
-    }
-
     .btntop {
         bottom: 3rem;
         right: .5rem;
@@ -266,10 +262,6 @@ footer span a {
     ul li a p {
         font-size: .9rem;
         font-weight: 700;
-    }
-
-    main {
-        padding-bottom: 4rem;
     }
 
     .btntop {
