@@ -128,7 +128,7 @@ h2 {
 }
 
 section {
-    margin-top: 2.5rem;
+    margin-top: 5.5rem;
     padding: 0rem 1.7rem;
 }
 
@@ -216,13 +216,6 @@ footer span a {
 
 .btntop:hover {
     transform: translateY(-10px) scale(1.1);
-}
-
-.div-ads {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 0rem;
 }
 
 /* iPhone5 - Horizontal */
