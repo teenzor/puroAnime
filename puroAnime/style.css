@@ -32,10 +32,6 @@ body {
     font-style: italic;
 }
 
-body.ativo {
-    background-image: linear-gradient(to right bottom, #111, #111, #111, #111, #111);
-}
-
 header {
     display: flex;
     align-items: center;
@@ -49,10 +45,6 @@ header {
     padding: .3rem 0rem .3rem 0rem;
     background-color: #1d0c3a;
     z-index: 999;
-}
-
-.header-theme.ativo {
-    background-color: #111;
 }
 
 .icon-theme {
@@ -217,6 +209,19 @@ footer span a {
 .btntop:hover {
     transform: translateY(-10px) scale(1.1);
 }
+
+/* TEMA DARK */
+
+/*  body */
+ body.ativo {
+    background-image: linear-gradient(to right bottom, #111, #111, #111, #111, #111);
+}
+
+/* header / footer */
+ body.ativo .dark-theme {
+    background-color: #111;
+ }
+
 
 /* iPhone5 - Horizontal */
 
