@@ -128,10 +128,6 @@ section img:hover {
     box-shadow: 0px 0px 25px #430e66;
 }
 
-body.ativo section img:hover {
-    box-shadow: 0px 0px 25px 5px rgba(71, 71, 71, 0.589);
-}
-
 ul,
 li {
     display: grid;
@@ -200,7 +196,7 @@ footer span a {
     transform: translateY(-10px) scale(1.1);
 }
 
-/* TEMA DARK */
+/* TEMA DARK .ativo */
 
 /*  body */
 body.ativo {
@@ -210,6 +206,11 @@ body.ativo {
 /* header / footer */
 body.ativo .dark-theme {
     background-color: #111;
+}
+
+/* box shadow hover */
+body.ativo section img:hover {
+    box-shadow: 0px 0px 25px 5px rgba(71, 71, 71, 0.589);
 }
 
 
