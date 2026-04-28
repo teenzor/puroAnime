@@ -189,7 +189,6 @@ footer span a {
     right: .6rem;
     cursor: pointer;
     transition: all .8s;
-    opacity: 0;
 }
 
 .btntop:hover {
