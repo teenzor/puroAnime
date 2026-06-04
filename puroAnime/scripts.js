@@ -14,5 +14,5 @@ btn.addEventListener("click", () => {
 
 window.addEventListener("scroll", () => {
     btn.hidden = scrollY < 100;
-    return (btn.style.opacity = "1")
+    return (btn.style.opacity = "1");
 });
